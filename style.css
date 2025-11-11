@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #1e293b;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+  color: #93c5fd;
+}
+
+/* Make sure the label is visible against the dark background */
+label {
+    margin-bottom: 4px;
+    display: block;
+    font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  background: #0f172a;
+  color: #f1f5f9;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 8px;
+  font-family: monospace;
+  /* Add box-sizing to include padding in the width */
+  box-sizing: border-box; 
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 6px;
+  margin-top: 4px; /* Added for better spacing on wrap */
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+#canvasContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+canvas {
+  background: #0f172a;
+  border-radius: 12px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+  /* Make canvas responsive */
+  max-width: 100%; 
+}
+
+.info {
+  margin-top: 10px;
+  text-align: center;
+  color: #cbd5e1;
+}
